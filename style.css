@@ -1,6 +1,29 @@
-#body {
-    background-color: aquamarine;
-    border: thick, solid, 10px, black;
-    margin: auto;
+body {
+    background-color: blueviolet;
 }
 
+#row1 {
+    background-color: yellow;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+
+    
+}
+
+#profilePicture {
+    height: 400px;
+    width: 400px;
+    padding-top: 20px;
+
+}
+#col1 {
+    margin: 20px;
+    padding: 20px;
+    background-color: cornsilk;
+}
+
+#row2 {
+    background-color: tomato;
+}
