@@ -6,6 +6,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100%;
 }
 /* Styling for "Keiana Hanson" */
 #NameBar {
@@ -40,4 +41,15 @@ when resizing page, boarder goes the length of container */
 
 p {
     padding: 15px;
+}
+
+#FooterStyle {
+        background-color: lightslategray;
+        padding-top: 30px;
+        color: honeydew;
+        height: 80px;
+        text-align: center;
+        position: relative;
+        margin-top: 100px;
+        margin-bottom: 0px;
 }
