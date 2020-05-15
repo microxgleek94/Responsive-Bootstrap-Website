@@ -1,7 +1,6 @@
 /* background color to whole page */
 body {
     background-image: url("/Assets/Images/Smoke\ bgd\ image.jpg"); /* Source: https://unsplash.com/photos/ebno_NwaOns} */
-    background-color: #cccccc; /* Used if the image is unavailable */
     height: 500px; 
     background-position: center;
     background-repeat: no-repeat;
