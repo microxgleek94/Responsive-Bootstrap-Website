@@ -1,29 +1,26 @@
+/* background color to whole page */
 body {
     background-color: blueviolet;
 }
 
+/* Stylings for container holding "About Me" text and profile picture */
 #row1 {
     background-color: yellow;
     margin-top: 20px;
     margin-right: auto;
     margin-bottom: 20px;
     margin-left: auto;
-
-    
 }
 
+/* Profile Picture Styling */
 #profilePicture {
-    height: 400px;
-    width: 400px;
     padding-top: 20px;
 
 }
+/* "About Me" Container styling */
 #col1 {
     margin: 20px;
     padding: 20px;
     background-color: cornsilk;
 }
 
-#row2 {
-    background-color: tomato;
-}
