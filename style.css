@@ -1,26 +1,43 @@
 /* background color to whole page */
 body {
-    background-color: blueviolet;
+    background-image: url("/Assets/Images/Smoke\ bgd\ image.jpg"); /* Source: https://unsplash.com/photos/ebno_NwaOns} */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+/* Styling for "Keiana Hanson" */
+#NameBar {
+    background-color: lightsteelblue;
 
+}
 /* Stylings for container holding "About Me" text and profile picture */
 #row1 {
-    background-color: yellow;
+    background-color: lightgrey;
     margin-top: 20px;
-    margin-right: auto;
     margin-bottom: 20px;
+    margin-right: auto;
     margin-left: auto;
 }
 
 /* Profile Picture Styling */
 #profilePicture {
     padding-top: 20px;
-
 }
 /* "About Me" Container styling */
-#col1 {
+#AboutMe {
     margin: 20px;
     padding: 20px;
-    background-color: cornsilk;
+    background-color: rgb(212, 225, 235);
+}
+/* styling for border under "About Me" // how to make line static? 
+when resizing page, boarder goes the length of container */
+#border {
+    border-bottom: solid black;
+    border-width: 0px 0px 2px 0px; /* x top, 0px right, 4px bottom and 0px left */ 
 }
 
+p {
+    padding: 15px;
+}
