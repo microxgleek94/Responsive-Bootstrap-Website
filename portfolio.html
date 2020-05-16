@@ -26,59 +26,56 @@
   <body>
     <!-- Navbar & Name Fluid Container -->
     <div class="container-fluid">
-        <section id="NameBar" class="col-sm pl-5 pr-5 text-sm-center">
-            <h1> Keiana Hanson</h1>
-            <!-- navbar // need to make Home, Portfolio Contact 
-            move to right-hand side for full size page -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-left">
-                <a class="navbar-brand">Main Menu</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 justify-content-right">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="portfolio.html">Portfolio<span
-                                    class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </section>
+      <section id="NameBar" class="col-sm pl-5 pr-5 text-sm-center">
+        <h1> Keiana Hanson</h1>
+        <!-- navbar // removed "-nav mt-2 mt-lg-0 justify-content-right" in line 40
+                and menu is to the right now --> -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-left">
+          <a class="navbar-brand">Main Menu</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </section>
     </div>
 
     <!--Main fluid container starts -->
     <!-- "Portfolio" text & background -->
     <div class="container-fluid">
-        <div class="row" id="row1">
-            <div class="col-sm-7" id="AboutMe">
-                <h3>Portfolio</h2>
-                    <div id="border" width="400px"></div>
-                    <!-- Portfolio container for images and future links -->
-                    <div class="container-fluid">
-                      <div class= "row">
-                        <div class= "col-sm-4">
+      <div class="row" id="row1">
+        <div class="col-sm-7" id="AboutMe">
+          <h3>Portfolio</h2>
+            <div id="border" width="400px"></div>
+            <!-- Portfolio container for images and future links -->
+            <div class="container-fluid" id="portMain">
+              <div class="row" id="portRow1">
+                <div class="col-sm-4" id="portCol1">
 
-                        </div>
-                      </div>
-                    </div>
+                </div>
+              </div>
+            </div>
 
-    <!-- Footer is currently floating in the middle of the age as there is notthing to push it down -->
-    <footer class="footer" id="FooterStyle">
-      <h3><span> @Copyright Kiki Alexis Footer</span></h3>
-    </footer>
-  </div>
+        </div>
 
+        <!-- Footer is currently floating in the middle of the age as there is notthing to push it down -->
 
-
-
+        <footer class="footer" id="FooterStyle">
+          <h3><span> @Copyright Kiki Alexis Footer</span></h3>
+        </footer>
 
 
 
@@ -86,16 +83,17 @@
 
 
 
-  <script src="https://kit.fontawesome.com/be3bff3f75.js" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-  </script>
-</body>
+
+        <script src="https://kit.fontawesome.com/be3bff3f75.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+          integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+          integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+          integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+        </script>
+  </body>
 
 </html>
