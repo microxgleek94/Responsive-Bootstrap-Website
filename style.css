@@ -38,8 +38,9 @@ when resizing page, boarder goes the length of container */
     border-width: 0px 0px 2px 0px; /* x top, 0px right, 4px bottom and 0px left */ 
 }
 
-p {
-    padding: 15px;
+/* Review to get more spacing between text and profile picture */
+#styleText {
+    margin-left: 20px;
 }
 
 #FooterStyle {
