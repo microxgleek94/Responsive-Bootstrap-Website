@@ -1,0 +1,1 @@
+This is a responsive website made using Bootstrap, and is completed with a Bio, Contact Page with links to social media, and Portfolio (in Progress)

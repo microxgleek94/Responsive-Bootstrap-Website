@@ -25,8 +25,8 @@ body {
 #profilePicture {
     padding-top: 20px;
 }
-/* "About Me" Container styling */
-#AboutMe {
+/* "Content" Container styling */
+#bodyContent {
     margin: 20px;
     padding: 20px;
     background-color: rgb(212, 225, 235);
@@ -42,7 +42,7 @@ when resizing page, boarder goes the length of container */
 #styleText {
     margin-left: 20px;
 }
-
+/* Footer Styling */
 #FooterStyle {
         background-color: lightslategray;
         padding-top: 30px;
@@ -52,4 +52,13 @@ when resizing page, boarder goes the length of container */
         margin-top: 100px;
         margin-bottom: 0px;
         width:100%;
+}
+/* FontAwesome Styling on Portfolio HTML*/
+#socialIcon {
+    display: inline-block;  
+}
+/* h2 Center Text for Portfolio HTML */
+h2 {
+    padding: 20px;
+    text-align: center;
 }
