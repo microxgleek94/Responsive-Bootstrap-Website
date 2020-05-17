@@ -49,7 +49,7 @@ when resizing page, boarder goes the length of container */
         color: honeydew;
         height: 80px;
         text-align: center;
-        position: relative;
         margin-top: 100px;
         margin-bottom: 0px;
+        width:100%;
 }
